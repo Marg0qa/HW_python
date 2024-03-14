@@ -4,7 +4,6 @@ for y in is_year_leap:
             print(y)
 
 is_year_leap = input("Год ")
-#result = (int(is_year_leap)%4==0)
 print(f"Год {is_year_leap}: {(int(is_year_leap)%4==0)}")
 
 
