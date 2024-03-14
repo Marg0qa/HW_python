@@ -3,8 +3,8 @@ for y in is_year_leap:
         if (y%4 ==0):
             print(y)
 
-year = input("Год ")
-result = (int(year)%4==0)
-print(f"Год {year}: {result}")
+is_year_leap = input("Год ")
+result = (int(is_year_leap)%4==0)
+print(f"Год {is_year_leap}: {result}")
 
 

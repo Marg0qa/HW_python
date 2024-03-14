@@ -1,4 +1,4 @@
-side = int(input("сторона="))
+side = float(input("сторона="))
 
 import math
 def square(side):
