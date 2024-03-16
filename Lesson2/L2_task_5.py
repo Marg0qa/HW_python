@@ -7,9 +7,9 @@ def month_to_season(month_num):
     elif month_num in [3,4,5]:
         return 'Весна'
     elif month_num in [6,7,8]:
-        return 'Весна'
+        return 'Лето'
     elif month_num in [9,10,11]:
-        return 'Весна'
+        return 'Осень'
     else:
         return("укажите правильный номер месяца")
 print ( month_to_season ( int ( input ( "номер месяца " ))))
