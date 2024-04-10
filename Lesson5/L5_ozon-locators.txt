@@ -1,5 +1,4 @@
-Локатор кнопки Войти - div[class="a9cf"] #Вот данные элемента <div class="a5h dn4"><span class="tsBodyControl300XSmall d4n n4d">0</span><span class="nd4">Войти</span></div>
+Локатор кнопки Войти - div[data-widget="profileMenuAnonymous"] 
 Локатор кнопки Заказы - a[href="/my/orderlist"] 
-Локатор ссылки OZON Job (в футере) - a[title="Вакансии"]   # как я поняла,нужно было вакансии, т.к иначе там будет несколько локаторов на разные столбцы и пункты
-Локатор выбора валюты (верхний левый угол страницы) - button[data-widget="selectedCurrency"] #Код элемента <button class="md1 ga00-a undefined" data-widget="selectedCurrency"><div class="ga00-a2 tsBodyControl400Small">BYN</div></button>
-Локатор выпадашки Везде (в поисковой строке) - span[title="Везде"]
+Локатор ссылки OZON Job (в футере) - a[title="Вакансии"]  
+Локатор выбора валюты (верхний левый угол страницы) - button[data-widget="selectedCurrency"] 
