@@ -1,0 +1,4 @@
+Локатор кнопки Войти - div[data-widget="profileMenuAnonymous"] 
+Локатор кнопки Заказы - a[href="/my/orderlist"] 
+Локатор ссылки OZON Job (в футере) - a[title="Вакансии"]  
+Локатор выбора валюты (верхний левый угол страницы) - button[data-widget="selectedCurrency"] 
