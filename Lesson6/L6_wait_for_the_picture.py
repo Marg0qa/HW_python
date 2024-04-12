@@ -9,9 +9,11 @@ driver.get("https://bonigarcia.dev/selenium-webdriver-java/loading-images.html")
 driver.implicitly_wait(10)
 
 try:
-    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//img[@id="landscape"]'))) # Дожидаемся загрузки 4-й картинки
-    image_src = driver.find_elements(By.CSS_SELECTOR, 'img')[-2].get_attribute("src") # Получаем значение атрибута src у 3-й картинки
+    WebDriverWait(driver, 10).until(EC.text_to_be_present_in_element((By.CSS_SELECTOR, '#text'), 'Done')) # Дожидаемся загрузки 4-й картинки
+    image_container = driver.find_element(By.ID, 'image-container')
+    image_src = image_container.find_elements(By.CSS_SELECTOR, 'img')[2].get_attribute("src") # Получаем значение атрибута src у 3-й картинки
+
     print(image_src)
-    
+        
 finally:
     driver.quit()
