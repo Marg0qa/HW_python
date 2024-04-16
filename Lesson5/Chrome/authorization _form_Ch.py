@@ -15,5 +15,5 @@ search_password = driver.find_element(By.CSS_SELECTOR, 'input[id="password"]')
 search_password.send_keys('SuperSecretPassword!')
 
 driver.find_element(By.CSS_SELECTOR,'button.radius').click()
-sleep(2)
+sleep(5)
 driver.quit()

@@ -9,8 +9,7 @@ url1='http://uitestingplayground.com/dynamicid'
 for click in range(3): # Цикл 3 разa
     driver = webdriver.Chrome()
     driver.get(url1)
-    button = driver.find_element(By.CSS_SELECTOR, 'button[class="btn btn-primary"]')
-    button.click()
+    button = driver.find_element(By.CSS_SELECTOR, 'button[class="btn btn-primary"]').click()
     sleep(3)
     try: #Ожидается появление кнопки 
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.CSS_SELECTOR, 'button[class="btn btn-primary"]')))
